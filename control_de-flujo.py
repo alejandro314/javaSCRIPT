@@ -25,3 +25,6 @@ if (100>10 and 10==10):
     
 if (100>10000 or 10==10):
     print("docle condicion ok")
+
+if True:
+    print("siempre es verdadero")

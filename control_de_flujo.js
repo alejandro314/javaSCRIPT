@@ -27,3 +27,6 @@ if (100>10 && 10==10){
 if (100>10000 || 10==10){
     console.log("doble condicion ok")
 }
+if(true){
+    console.log("siempre es verdadero")
+}
