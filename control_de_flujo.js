@@ -30,3 +30,20 @@ if (100>10000 || 10==10){
 if(true){
     console.log("siempre es verdadero")
 }
+
+// USO DE SWITCH CASE
+
+let opcion=2;
+
+switch(opcion){
+    case 1:
+        console.log("seleccion 1")
+        break
+      case 2:
+        console.log("seleccion 2")
+        break
+      case 3:
+        console.log("seleccion 3")
+    default:
+        console.log("caso por defecto")
+}

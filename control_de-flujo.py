@@ -28,3 +28,17 @@ if (100>10000 or 10==10):
 
 if True:
     print("siempre es verdadero")
+
+#USO DE MATCH CASE
+
+opcion=8
+
+match opcion:
+    case 1:
+        print("seleccion 1")
+    case 2:
+        print("seleccion 2")
+    case 3:
+        print("seleccion 3")
+    case _:
+        print("caso por defecto")
